@@ -178,35 +178,105 @@ body {
 
 
 
-/* Responsive Design */
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-elements {
+        justify-content: center;
+    }
+
+    #nav {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    #log1 {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+
+    .Welcome {
+        margin-top: 2rem;
+        padding: 0.5rem;
+    }
+
     .note {
-        max-width: 80%;
+        max-width: 95%;
     }
+
     #welnote {
-        font-size: 6rem;
+        font-size: 2.5rem;
     }
+
     #fokus {
-        font-size: 8rem;
-        margin-top: -3rem;
+        font-size: 3rem;
+        margin-top: 0.5rem;
     }
+
     #quote {
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .TimeManage {
+        width: 90%;
+        margin: 2rem auto 0 auto;
+    }
+
+    #heading {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+
+    #time {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .footer-content {
+        gap: 1.5rem;
+    }
+
+    .footer-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-section p {
+        font-size: 0.9rem;
+    }
+
+    .footer-bottom {
+        font-size: 0.8rem;
     }
 }
 
-@media (min-width: 1024px) {
+/* Tablet Improvements */
+@media (min-width: 768px) and (max-width: 1023px) {
     .note {
-        max-width: 70%;
+        max-width: 85%;
     }
+
     #welnote {
-        font-size: 10rem;
+        font-size: 4rem;
     }
+
     #fokus {
-        font-size: 12rem;
-        margin-top: -6rem;
+        font-size: 5rem;
+        margin-top: -2rem;
     }
+
     #quote {
-        font-size: 2rem;
+        font-size: 1.3rem;
+    }
+
+    .TimeManage {
+        width: 80%;
+    }
+
+    #time {
+        font-size: 1.1rem;
     }
 }
